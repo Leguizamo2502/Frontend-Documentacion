@@ -1,0 +1,19 @@
+.oculto {
+    display: none;
+}
+#target {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contenedorIframes{
+    display: flex;
+    justify-content: center;
+    h1{
+        text-align: center;
+    }
+}
+iframe{
+    width: 100vh;
+}
