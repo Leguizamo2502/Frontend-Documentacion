@@ -1,12 +1,6 @@
 .oculto {
     display: none;
 }
-#target {
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 #contenedorIframes{
     display: flex;
     justify-content: center;
@@ -16,4 +10,10 @@
 }
 iframe{
     width: 100vh;
+}
+nav{
+    background-color: #bbd1ff;
+}
+.logoNavbar{
+    margin-right: 5%;
 }

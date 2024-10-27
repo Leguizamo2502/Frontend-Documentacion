@@ -78,3 +78,40 @@ function mostrarCronogramaPagos(){
     });
     document.getElementById("cronogramaPagos").classList.remove('oculto');
 }
+
+function mostrarHistoriasUsuario(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("HistoriasUsuario").classList.remove('oculto');
+}
+
+function mostrarRequerimientos(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("Requerimientos").classList.remove('oculto');
+}
+function mostrarMer(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("Mer").classList.remove('oculto');
+}
+function mostrarCasosUso(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("CasosUso").classList.remove('oculto');
+}
+function mostrarFicha(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("ficha").classList.remove('oculto');
+}
