@@ -41,5 +41,19 @@
             "correo": "vargasleguizamo95@gmail.com",
             "github": "Leguizamo2502"
         }
+    },
+    {
+        "nombre": "Juan Felipe Guerrero",
+        "rol": "Desarrollador Frontend",
+        "descripcion": "Juan es el encargado de la tienda y bono de bienvenida de Memory Start, enfocándose en crear una experiencia interactiva y visualmente atractiva. Con habilidades en JavaScript y diseño, ha desarrollado componentes clave del juego como el funcionamiento entre el usuario y la personalización de su perfil.",
+        "contribuciones": [
+            "Diseño y desarrollo de la tienda y bono de bienvenida.",
+            "Implementación de la lógica de compras.",
+            "Integración de efectos visuales y animaciones."
+        ],
+        "contacto": {
+            "correo": "guerrerojuanfe2004@gmail.com",
+            "github": "JuanGuerrero0"
+        }
     }
 ]
