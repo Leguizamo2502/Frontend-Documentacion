@@ -1,12 +1,16 @@
 const docs = document.querySelectorAll('.docs');
 docs.forEach(doc => {
     doc.addEventListener('click', function() {
-
-        // Desplazamiento suave hacia el div objetivo
         document.getElementById('contenedorIframes').scrollIntoView({ behavior: 'smooth' });
     });
 });
 
+const docsDos = document.querySelectorAll('.docsDos');
+docsDos.forEach(doc => {
+    doc.addEventListener('click', function() {
+        document.getElementById('contenedorIframesDos').scrollIntoView({ behavior: 'smooth' });
+    });
+});
 
 function mostrarIntroduccion() {
     const iframes = document.querySelectorAll('.iframes');
@@ -114,4 +118,11 @@ function mostrarFicha(){
         iframe.classList.add('oculto');
     });
     document.getElementById("ficha").classList.remove('oculto');
+}
+function mostrarRiesgo(){
+    const iframes = document.querySelectorAll('.iframes');
+    iframes.forEach(iframe => {
+        iframe.classList.add('oculto');
+    });
+    document.getElementById("riesgo").classList.remove('oculto');
 }

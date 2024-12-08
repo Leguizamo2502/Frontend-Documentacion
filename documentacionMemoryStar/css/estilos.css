@@ -1,7 +1,7 @@
 .oculto {
     display: none;
 }
-#contenedorIframes{
+#contenedorIframes, #contenedorIframesDos{
     display: flex;
     justify-content: center;
     h1{
@@ -16,4 +16,7 @@ nav{
 }
 .logoNavbar{
     margin-right: 5%;
+}
+.card{
+    padding: 5% !important;
 }

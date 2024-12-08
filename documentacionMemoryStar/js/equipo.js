@@ -21,6 +21,7 @@ function mostrarIntegrantes(Integrantes) {
                         <ul class="list-inline">
                             <li class="list-inline-item"><strong>Rol: </strong>${miembro.rol}</li>
                         </ul>
+                        <img src="${miembro.imagen}" alt="" width="200"></div>
                         <h6>Descripción:</h6>
                         <p>${miembro.descripcion}</p>
                         <h6>Contribuciones:</h6>
